@@ -7,11 +7,10 @@ class FeedData extends Component {
     super(props);
 
     this.state = {
-        options: [
+        options: [          
             { value: "one", label: "One" },
             { value: "two", label: "Two" }
-        ],
-        select: 'one'
+        ]        
     }
   }
 
@@ -22,7 +21,7 @@ class FeedData extends Component {
   render() {
     return (
       <div className="feedData-container">
-        <SelectWrapper onChange={this.onChange} options={this.state.options} select={this.state.select}/>
+        <SelectWrapper onChange={this.onChange} options={this.state.options} />
       </div>
     );
   }

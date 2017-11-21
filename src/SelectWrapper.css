@@ -1,1 +1,5 @@
 @import '../node_modules/react-select/dist/react-select.css';
+
+.Select-control {
+    width: 200px;
+}

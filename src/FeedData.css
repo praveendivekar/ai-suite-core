@@ -1,4 +1,6 @@
 .feedData-container {
     width: 750px;
-    left: 50%;       
+    border: 1px solid black;      
+    margin: 50px 150px;
+    padding: 30px;
 }
