@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./Login.css";
-import Header from "./Header";
+import "../Login/Login.css";
+import Header from "../Header/Header";
 
 class Login extends Component {
   goToDataFeedPage = event => {
